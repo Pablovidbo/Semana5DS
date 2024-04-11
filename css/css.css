@@ -1,10 +1,27 @@
 .btnWitdh {
     width: 100%;
 }
+.btnIcon i {
+    margin-right: 10px;
+}
+.btnIcon {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.collection .collection-item.avatar .title {
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+}
+.collection .collection-item.avatar p.precio {
+    color: #2bbbad;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
 
-.card-title {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    text-align: center;
-  }
+.collection-item img {
+    width: 250px; /* Ancho deseado */
+    height: 200px; /* Altura deseada */
+}
